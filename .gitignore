@@ -1,0 +1,18 @@
+# Built binaries (match README names go build -o …)
+gochips
+
+# macOS
+.DS_Store
+
+# Go test / coverage
+*.test
+*.out
+coverage.html
+
+# Optional vendoring
+/vendor/
+
+# Local tooling
+.idea/
+*.swp
+*.swo
